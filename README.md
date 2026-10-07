@@ -22,4 +22,7 @@ Ventajas como:
 ### Respuesta:
 Si no existiera un control interno del estado del libro, el programa podría permitir que se registre nuevamente un préstamo aunque el libro ya esté prestado, generando inconsistencias en la información. En un sistema conectado a una base de datos, esto podría provocar que dos personas aparezcan como responsables del mismo libro al mismo tiempo, lo cual no corresponde con el estado real del recurso, porque solo habria un ejemplar del libro en el presente ejercicio.
 
-5. 
+5. Qué ventajas tiene permitir que la informacion sea ingresada por el usuario en lugar de escribir los datos directamente en el código?
+
+### Respuesta:
+Al permitir que la información sea ingresada por el usuario y no mandarla directamente quemada desde el código hace que el programa sea dinámico e interactivo. Una aplicación normalmente necesita de campos que el usuario deba llenar con info real que proporciona este mismo.
