@@ -16,3 +16,10 @@ Ventajas como:
 * Facil mantenimiento si llega a cambiar la logica (de la validación u otro requerimiento, solo se modifica el constructor).
 * Menor probabilidad de tener el código duplicado.
 * Facilidad para uso y reutlización del código ;)
+
+4. ¿Qué ocurriría si el libro ya estaba prestado y alguien intenta prestarlo nuevamente sin controles de estado internos?
+
+### Respuesta:
+Si no existiera un control interno del estado del libro, el programa podría permitir que se registre nuevamente un préstamo aunque el libro ya esté prestado, generando inconsistencias en la información. En un sistema conectado a una base de datos, esto podría provocar que dos personas aparezcan como responsables del mismo libro al mismo tiempo, lo cual no corresponde con el estado real del recurso, porque solo habria un ejemplar del libro en el presente ejercicio.
+
+5. 
